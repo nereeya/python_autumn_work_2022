@@ -3,3 +3,7 @@
 age = 36.6
 temperature = 25
 
+x = age
+age = temperature
+temperature = x
+print(age, temperature)
