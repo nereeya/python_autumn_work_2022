@@ -10,9 +10,9 @@ y = 12.5
 print(type(y))
 #3. Логического типа
 #bool
-j = 1
-j = False
-print(type(j))
+flag = False
+flag_1 = True
+print(type(flag ))
 #4. Строкового типа
 #str
 a = "Время приключений"
