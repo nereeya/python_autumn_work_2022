@@ -14,7 +14,7 @@ print(type(agee))
 flag = 1
 flag = bool()
 print(type(flag))
-#Преобразуйте значение  в Boolean
+# Преобразуйте значение  в Boolean
 str_one = "Privet"
 str_two = ""
 str_one = bool()
