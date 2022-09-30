@@ -5,6 +5,8 @@
 x = 1
 print(type(x))
 #2. Вещественного типа
+
+
 #float
 y = 12.5 
 print(type(y))
