@@ -8,10 +8,10 @@
 #........................................
 #Выводы комбинаций оформить в список кортежей.
 
-from itertools import combinations
+import itertools
 num = [1, 2, 3, 4, 5, 6]
-x = combinations(num, 2)
-y = combinations(num, 2)
+x = itertools.combinations(num, 2)
+y = itertools.combinations(num, 2)
 for i in list(x):
     for j in list(y):
         print("сумма:", sum(i+j), "комбинация:", i, j)
