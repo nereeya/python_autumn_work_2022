@@ -3,16 +3,20 @@
 #Попробуйте все возможные сдвиги и расшифруйте фразу.
 #grznuamn zngz cge sge tuz hk uhbouay gz loxyz atrkyy eua'xk jazin.
 
-alfavit ='abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz'
-message = "grznuamn zngz cge sge tuz hk uhbouay gz loxyz atrkyy eua'xk jazin"
+alfavit ='zyxwvutsrqponmlkjihgfedcbazyxwvutsrqponmlkjihgfedcbaazyxwvutsrqponmlkjihgfedcba'
+message = "grznuamn zngz cge sge tuz hk uhbouay gz loxyz atrkyy eua'xk jazin."
 itog = ''
-for i in message:
-    m = alfavit.find(i)
-    n = m + 20
-    if i in alfavit:
-        itog += alfavit[n]
-    else:
-        itog +=i
-print(itog)
+for x in range(1, 30):
+    for i in message:
+        m = alfavit.find(i)
+        n = m + x
+        if i in alfavit:
+            itog += alfavit[n]
+        else:
+            itog +=i
+print(itog.split("."))
 
-#Методом подбора подошло 20 значение.
+#Методом подбора подошло 6 значение.
+#"although that way may not be obvious at first unless you're dutch"
+
+
