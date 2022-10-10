@@ -17,11 +17,6 @@
 f = open("import_this.txt", "r")
 p = f.readlines()
 p.reverse()
-print(p)
+print("\n".join(p))
 
-f = open("import_this.txt", "r")
-i = f.readlines(1)
-n = f.readlines(2)
-j = f.readlines(3)
-k = f.readlines(4)
-print(k, "\n", j, "\n", n, "\n", i)
+
